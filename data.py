@@ -5,7 +5,7 @@ dataset = load_dataset("wikipedia", "20220301.simple")
 
 def filter_text(text):
     text = text.replace('\n\n', '\n')
-    text = text.replace('\n ', '\N')
+    text = text.replace('\n ', '\n')
     return text
 
 train_split = dataset["train"]
