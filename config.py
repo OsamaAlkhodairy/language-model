@@ -1,0 +1,11 @@
+batch_size = 16
+block_size = 256
+n_embed = 192
+learning_rate = 5e-4
+max_iters = 50000
+eval_interval = 1000
+save_model_iters = 1000
+eval_iters = 200
+dropout = 0.0
+n_head = 8
+n_layers = 6
