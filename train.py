@@ -20,6 +20,8 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print('device', device)
 
 
+# assumes that every character in the vocabulary is present in the dataset
+
 # # Character based model
 # chars = sorted(list(set(''.join(text))))
 # vocab_size = len(chars)
